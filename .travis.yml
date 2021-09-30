@@ -4,3 +4,7 @@ node_js:
 scripts: 
   - "echo \"Test\""
   - "npm run test"
+deploy:
+  provider: heroku
+  api_key: 890b9349-c2bb-4a69-b93e-39b680921b2b
+  app: demostracion-prueba-ci-3-githu
