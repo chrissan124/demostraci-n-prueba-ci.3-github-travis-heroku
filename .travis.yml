@@ -1,0 +1,10 @@
+language: node_js
+node_js: 
+  - "14.17.6"
+scripts: 
+  - "echo \"Test\""
+  - "npm run test"
+
+        
+     
+   
