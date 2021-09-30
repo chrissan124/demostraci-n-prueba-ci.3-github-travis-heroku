@@ -19,3 +19,16 @@ test('SUCCESS SUM', () => {
 test('ERROR SUM', () => {
   expect(operations.sumOperation("a", 7)).toBeNaN();
 });
+
+// TEST FOR DIVISION OPERATION
+test('SUCCESS DIVISION', () => {
+  expect(operations.divisionOperation(10, 5)).toBe(2);
+});
+
+test('ERROR DIVISION', () => {
+  expect(operations.divisionOperation("a", 7)).toBeNaN();
+});
+
+test('ZERO DIVISION', () => {
+  expect(operations.divisionOperation(10, 0)).toBeUndefined();
+});

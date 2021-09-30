@@ -2,4 +2,8 @@ function sumOperation(a, b) {
   return parseInt(a) + parseInt(b);
 }
 
-module.exports = { sumOperation };
+function divisionOperation(a, b) {
+  return parseInt(a) / parseInt(b);
+}
+
+module.exports = { sumOperation, divisionOperation };
